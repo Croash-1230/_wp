@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>會員註冊表單</title>
+</head>
+<body>
+
+    <h2>會員註冊表單</h2>
+
+    <form>
+
+        <p>
+            姓名：
+            <input type="text" name="name" placeholder="請輸入姓名">
+        </p>
+
+        <p>
+            帳號：
+            <input type="text" name="account">
+        </p>
+
+        <p>
+            密碼：
+            <input type="password" name="password">
+        </p>
+
+        <p>
+            電子郵件：
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            生日：
+            <input type="date" name="birthday">
+        </p>
+
+        <p>
+            性別：
+            <input type="radio" name="gender" value="男">男
+            <input type="radio" name="gender" value="女">女
+            <input type="radio" name="gender" value="其他">其他
+        </p>
+
+        <p>
+            興趣：
+            <input type="checkbox" name="hobby" value="運動">運動
+            <input type="checkbox" name="hobby" value="音樂">音樂
+            <input type="checkbox" name="hobby" value="閱讀">閱讀
+            <input type="checkbox" name="hobby" value="旅遊">旅遊
+        </p>
+
+        <p>
+            居住縣市：
+            <select name="city">
+                <option>台北市</option>
+                <option>新北市</option>
+                <option>台中市</option>
+                <option>台南市</option>
+                <option>高雄市</option>
+            </select>
+        </p>
+
+        <p>
+            自我介紹：<br>
+            <textarea name="intro" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            上傳大頭貼：
+            <input type="file" name="photo">
+        </p>
+
+        <p>
+            <input type="submit" value="送出註冊">
+            <input type="reset" value="重新填寫">
+        </p>
+
+    </form>
+
+</body>
+</html>
